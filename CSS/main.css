@@ -1,0 +1,759 @@
+/* =========================================
+   1. Reset & Global Shared Classes
+   ========================================= */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: raleway, serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.clr {
+    clear: both;
+}
+
+/* Shared Layout Container */
+.main-container {
+    width: 80%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* Shared Section Spacing & Background */
+.section-pad {
+    padding: 100px 0;
+}
+
+.bg-light {
+    background-color: #f8f9fa;
+}
+
+/* Shared Responsive Block Images */
+.img-block {
+    width: 100%;
+    display: block;
+}
+
+/* Shared Typography Classes */
+.title-playfair {
+    font-family: "Playfair Display", serif;
+    font-size: 48px;
+    font-weight: 400;
+    color: #000000;
+}
+
+.section-desc {
+    color: #6b6b6b;
+    font-size: 16px;
+    width: 60%;
+    text-align: center;
+}
+
+.price-text {
+    color: #B06F00;
+}
+
+/* Shared Main Button */
+.btn-main {
+    background-color: #965f00;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    font-size: 13px;
+    text-transform: capitalize;
+}
+
+.btn-main:hover {
+    background-color: #613f03;
+    color: #f8f9fa;
+}
+
+/* Shared Accent Links */
+.accent-link {
+    color: #b06f00;
+    text-decoration: none;
+}
+
+.accent-link:hover {
+    color: #613f03;
+}
+
+/* =========================================
+   2. Hero Section
+   ========================================= */
+.hero-section {
+    background-image: url("../Media/Images/bg_3.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin-block: 0;
+    overflow: hidden;
+}
+
+.hero-section nav {
+    color: #6B6B6B;
+    text-align: center;
+    width: 100%;
+    background-color: transparent;
+    z-index: 999;
+    margin: auto;
+}
+
+.hero-section #head-nav {
+    font-size: 20px;
+    font-weight: 400;
+    color: #FFFFFF;
+    position: absolute;
+    left: 120px;
+    top: 40px;
+}
+
+.hero-section nav ul {
+    list-style: none;
+    float: right;
+    margin: 20px 15px;
+    padding: 15px;
+}
+
+.hero-section nav ul li {
+    float: left;
+    margin-inline: 20px;
+    text-transform: uppercase;
+}
+
+.hero-section nav ul li a {
+    font-size: 13px;
+    font-weight: 400;
+    color: #e6d7d7;
+}
+
+.hero-section nav ul li a:hover {
+    color: #FFFFFF;
+    font-weight: 400;
+}
+
+.container {
+    text-align: center;
+    padding-block: 100px;
+    margin-block: 100px;
+}
+
+.container h1 {
+    color: #FFFFFF;
+    font-size: 75px;
+}
+
+.container h2,
+.container button {
+    margin-block: 30px;
+}
+
+.container h2 {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.container button {
+    padding: 16px 40px;
+    background: none;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    transition: all 0.1s ease-in-out;
+    font-size: 16px;
+    font-family: Playfair Display, serif;
+    text-align: center;
+
+}
+
+.container button:hover {
+    background-color: #FFFFFF;
+    color: black;
+    cursor: pointer;
+}
+
+/* =========================================
+   3. Our Story Section
+   ========================================= */
+.our-story {
+    background-color: #ffffff;
+}
+
+.our-story .info,
+.our-story .image {
+    width: 48%;
+}
+
+.our-story .info {
+    float: left;
+    text-align: left;
+    padding-top: 35px;
+}
+
+.our-story .info h4 {
+    color: #8c8c8c;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 400;
+    margin-bottom: 12px;
+}
+
+.our-story .info h2 {
+    margin-bottom: 25px;
+}
+
+.our-story .info p {
+    color: #6b6b6b;
+    line-height: 1.8;
+    font-size: 16px;
+    margin: 0 0 20px 0;
+    width: 100%;
+    text-align: left;
+}
+
+.our-story .info #btn-learn {
+    background: transparent;
+    color: #6b6b6b;
+    border: 2px solid #cccccc;
+    padding: 12px 30px;
+    font-size: 13px;
+    font-family: Playfair Display, serif;
+    text-transform: capitalize;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: all 0.2s ease-in-out;
+
+
+
+}
+
+.our-story .info #btn-learn:hover {
+    background-color: #965f00;
+    border-color: #965f00;
+    color: #ffffff;
+}
+
+.our-story .image {
+    float: right;
+}
+
+/* 4. Our Offers & News Sections */
+.our-offer-news {
+    padding: 100px 100px;
+}
+
+.our-offer-news .info {
+    text-align: center;
+}
+
+.our-offer-news .info h2 {
+    color: #6B6B6B;
+    font-size: 16px;
+    letter-spacing: 8px;
+    line-height: 1.8;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.our-offer-news .info .title-lg {
+    font-family: Playfair Display, serif;
+    color: #000000;
+    font-size: 56px;
+    font-weight: 400;
+    line-height: 61.6px;
+}
+
+.our-offer-news .info p {
+    line-height: 25.6px;
+    margin: 0 20% 30px 20%;
+}
+
+.cards {
+    width: 100%;
+    overflow: hidden;
+}
+
+.cards .card {
+    width: 31%;
+    margin-inline: 1.1%;
+    padding: 0 0 50px 0;
+    float: left;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+/* Edit on last child of cards */
+.cards #sp-card01 {
+    padding: 0 0 20px 0;
+}
+
+.cards #sp-card {
+    padding-bottom: 95px;
+}
+
+.cards .card img {
+    height: auto;
+    margin-bottom: 25px;
+}
+
+.cards .card span {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.cards .card h3,
+.cards .card p {
+    margin: 0 20px 15px 20px;
+}
+
+.cards .card h3 {
+    font-size: 24px;
+    line-height: 34.8px;
+    font-weight: 700;
+    font-family: Playfair Display, serif;
+    color: #000000;
+}
+
+.cards .card p {
+    font-size: 16px;
+    line-height: 25.6px;
+    font-weight: 400;
+}
+
+.cards .card .btn-offer {
+    padding: 12px 30px;
+    transition: all 0.2s ease-in-out;
+
+}
+
+.dots {
+    margin-top: 45px;
+    text-align: center;
+}
+
+.dots:hover {
+    cursor: pointer;
+}
+
+.dot {
+    background-color: #8c8c8c;
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    border-radius: 50%;
+    margin: 5px 7px;
+}
+
+#active {
+    background-color: #965f00;
+}
+
+/* =========================================
+   5. Delicious Menu Section
+   ========================================= */
+.menu {
+    padding-block: 50px;
+    margin-bottom: 80px;
+}
+
+.menu .heading {
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.menu .heading h2 {
+    font-size: 56px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.menu .heading p {
+    font-size: 18px;
+    font-weight: 300;
+    color: #6B6B6B;
+    margin-inline: 30%;
+    line-height: 1.8;
+}
+
+.menu .btns {
+    text-align: center;
+}
+
+.menu .btns button {
+    font-size: 14px;
+    padding: 10px 20px;
+    text-align: center;
+    text-transform: uppercase;
+    background: transparent;
+    color: #4d4d4d;
+    border: 2px solid #d8d8d8;
+    margin-left: 10px;
+    transition: all 0.2s ease-in-out;
+
+}
+
+.menu .btns button:hover {
+    color: #CA8302;
+    cursor: pointer;
+}
+
+#special-btn {
+    border: 2px solid #000;
+    padding: 10px 30px;
+    color: #000 !important;
+}
+
+.menu .menu-items {
+    margin-block: 50px;
+    padding-inline: 10%;
+    overflow: hidden;
+}
+
+.menu .menu-items .menu-col {
+    width: 47%;
+}
+
+.menu .menu-items .left {
+    float: left;
+}
+
+.menu .menu-items .right {
+    float: right;
+}
+
+.menu .menu-items .item {
+    margin: 0 10px 15px 10px;
+    overflow: hidden;
+}
+
+.menu .menu-items .item img {
+    display: block;
+    float: left;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.menu .menu-items .item h3,
+.menu .menu-items .item p,
+.menu .menu-items .item span {
+    margin-left: 130px;
+}
+
+.menu .menu-items .item h3,
+.menu .menu-items .item p {
+    margin-bottom: 15px;
+}
+
+.menu .menu-items .item h3 {
+    font-size: 20px;
+    color: #000000;
+}
+
+.menu .menu-items .item p {
+    color: #6B6B6B;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+.menu .menu-items .item span {
+    display: block;
+    font-size: 22px;
+}
+
+/* =========================================
+   6. Gallery Section
+   ========================================= */
+.Gallery {
+    margin-top: 0px;
+    padding-bottom: 40px;
+}
+
+.Gallery .info-gal {
+    text-align: center;
+    padding-top: 20px;
+    margin-block: 50px;
+}
+
+.Gallery .info-gal h2 {
+    font-size: 56px;
+    font-weight: 400;
+}
+
+.Gallery .info-gal p {
+    color: #5c5c5c;
+    margin-inline: 26%;
+    line-height: 1.6;
+    font-size: 20px;
+}
+
+.Gallery .images {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+.Gallery .images img {
+    margin: 2px;
+}
+
+/* =========================================
+   7. Get In Touch Section
+   ========================================= */
+.get-in .heading {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.get-in .heading h2 {
+    margin-bottom: 15px;
+}
+
+.get-in .heading p {
+    line-height: 1.8;
+    margin: 0 auto;
+}
+
+.get-in .contact-form {
+    float: left;
+    width: 55%;
+}
+
+.get-in .contact-form .form-group,
+.get-in .contact-info .detail-item {
+    margin-bottom: 20px;
+}
+
+.get-in .contact-form label {
+    display: block;
+    color: #6b6b6b;
+    font-size: 14px;
+    margin-bottom: 8px;
+    text-align: left;
+}
+
+.get-in .contact-form input[type="text"],
+.get-in .contact-form input[type="email"],
+.get-in .contact-form textarea {
+    width: 100%;
+    background-color: #e5e5e5;
+    border: 1px solid transparent;
+    padding: 14px 18px;
+    font-size: 15px;
+    font-family: Playfair Display, serif;
+    color: #dee2e6;
+    outline: none;
+    border-radius: 2px;
+
+}
+
+.get-in .contact-form input[type="text"]::placeholder,
+.get-in .contact-form input[type="email"]::placeholder,
+.get-in .contact-form textarea::placeholder {
+    color: #8c8c8c;
+    font-family: raleway;
+}
+
+.get-in .contact-form input[type="text"]:focus,
+.get-in .contact-form input[type="email"]:focus,
+.get-in .contact-form textarea:focus {
+    border: 4px solid #f9e3bc;
+    background-color: #ffffff;
+    /* transition: border-width 0.2s ease-in; */
+}
+
+.get-in .contact-form textarea {
+    height: 160px;
+    resize: vertical;
+}
+
+.get-in .contact-form .btn-send {
+    padding: 14px 35px;
+    margin-top: 10px;
+}
+
+.get-in .contact-info {
+    float: right;
+    width: 38%;
+}
+
+.get-in .contact-info .contact-image img {
+    margin-bottom: 25px;
+}
+
+.get-in .contact-info .detail-title,
+.get-in .contact-info .detail-desc {
+    text-align: left;
+}
+
+.get-in .contact-info .detail-title {
+    color: #000000;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.get-in .contact-info .detail-desc {
+    color: #6b6b6b;
+    font-size: 14px;
+    line-height: 1.6;
+    transition: all 0.5s;
+}
+
+.get-in .contact-info .detail-desc a:hover {
+    text-decoration: underline;
+}
+
+/* =========================================
+   8. Map Section
+   ========================================= */
+.map-section {
+    background-color: #eef1f4;
+    padding: 120px 0;
+    text-align: center;
+}
+
+.map-section .map-address {
+    font-size: 17px;
+    color: #2b2b2b;
+    margin-bottom: 25px;
+}
+
+.map-section .map-actions {
+    text-align: center;
+}
+
+.map-section .btn-show-map,
+.map-section .link-open-maps {
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+
+}
+
+.map-section .btn-show-map {
+    padding: 12px 32px;
+    margin-right: 25px;
+    text-transform: none;
+}
+
+/* =========================================
+   9. Footer Section
+   ========================================= */
+.footer {
+    background-color: #222222;
+    padding: 90px 0 40px 0;
+}
+
+.footer .footer-col {
+    float: left;
+}
+
+.footer .footer-col-about {
+    width: 34%;
+    margin-right: 6%;
+}
+
+.footer .footer-col-links {
+    width: 16%;
+    margin-right: 4%;
+}
+
+.footer .footer-col-links:last-of-type {
+    margin-right: 0;
+}
+
+.footer .footer-col h2 {
+    color: RGBA(255, 255, 255, 0.65);
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.7px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+.footer .footer-col-about p,
+.footer .footer-col-links ul li a {
+    color: RGBA(255, 255, 255, 0.65);
+    font-size: 14px;
+    transition: all 0.1s ease-in-out;
+
+}
+
+.footer .footer-col-about p {
+    line-height: 1.8;
+}
+
+.footer .footer-col-links ul {
+    list-style: none;
+}
+
+.footer .footer-col-links ul li {
+    margin-bottom: 12px;
+}
+
+.footer .footer-col-links ul li a {
+    display: inline-block;
+}
+
+.footer .footer-col-links ul li a:hover {
+    color: rgba(253, 164, 3, 1);
+}
+
+.footer .footer-social {
+    text-align: center;
+    margin: 60px 0 35px 0;
+}
+
+.footer .footer-social .social-icon {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    /* background: transparent; */
+    background-color: #2d2d2d;
+    border-radius: 50%;
+    text-align: center;
+    margin: 0 8px;
+    cursor: pointer;
+}
+
+.footer .footer-social .social-icon:hover {
+    color: #ffffff;
+}
+
+.footer .footer-social .social-icon a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: RGBA(255, 255, 255, 0.65);
+
+}
+
+.footer .footer-social .social-icon img {
+    width: 50px;
+    height: 50px;
+    margin-top: auto;
+    opacity: 0.65;
+
+}
+
+.footer .footer-social .social-icon:hover img {
+    opacity: 1;
+}
+
+.footer .footer-copyright {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer .footer-copyright p {
+    color: RGBA(255, 255, 255, 0.65);
+    font-size: 13px;
+    line-height: 1.6;
+}
