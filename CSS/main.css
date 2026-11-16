@@ -757,3 +757,767 @@
     font-size: 13px;
     line-height: 1.6;
 }
+
+/* =========================================
+   10. Responsive Media Queries
+   ========================================= */
+
+/* Large Screens & Small Laptops (max-width: 1200px) */
+@media (max-width: 1200px) {
+    .main-container {
+        width: 88%;
+    }
+
+    .hero-section #head-nav {
+        left: 60px;
+    }
+
+    .our-offer-news {
+        padding: 80px 50px;
+    }
+
+    .menu .menu-items {
+        padding-inline: 5%;
+    }
+
+    .Gallery .images img {
+        width: 31%;
+        height: auto;
+    }
+}
+
+/* Tablets & Medium Screens (max-width: 992px) */
+@media (max-width: 992px) {
+    .main-container {
+        width: 90%;
+    }
+
+    .section-desc {
+        width: 80%;
+    }
+
+    .title-playfair {
+        font-size: 38px;
+    }
+
+    .our-offer-news .info .title-lg,
+    .menu .heading h2,
+    .Gallery .info-gal h2 {
+        font-size: 42px;
+        line-height: 1.2;
+    }
+
+    /* Hero Section */
+    .hero-section {
+        height: auto;
+        min-height: 100vh;
+    }
+
+    .hero-section #head-nav {
+        left: 30px;
+        top: 32px;
+    }
+
+    .hero-section nav ul {
+        margin: 15px 10px;
+        padding: 10px;
+    }
+
+    .hero-section nav ul li {
+        margin-inline: 10px;
+    }
+
+    .container {
+        padding-block: 80px;
+        margin-block: 60px;
+        padding-inline: 20px;
+    }
+
+    .container h1 {
+        font-size: 54px;
+    }
+
+    /* Offers & News */
+    .our-offer-news {
+        padding: 70px 30px;
+    }
+
+    .our-offer-news .info p {
+        width: 80%;
+        margin: 0 auto 30px auto;
+    }
+
+    .cards .card {
+        width: 47%;
+        margin: 0 1.5% 25px 1.5%;
+        padding-bottom: 35px;
+    }
+
+    .cards #sp-card,
+    .cards #sp-card01 {
+        padding-bottom: 35px;
+    }
+
+    /* Menu */
+    .menu .heading p {
+        margin-inline: 15%;
+    }
+
+    .menu .menu-items .menu-col {
+        float: none;
+        width: 100%;
+    }
+
+    /* Gallery */
+    .Gallery .info-gal p {
+        margin-inline: 15%;
+        font-size: 18px;
+    }
+
+    .Gallery .images img {
+        width: 47%;
+        height: auto;
+    }
+
+    /* Footer */
+    .footer .footer-col-about {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 35px;
+    }
+
+    .footer .footer-col-links {
+        width: 30%;
+        margin-right: 5%;
+    }
+
+    .footer .footer-col-links:last-of-type {
+        margin-right: 0;
+    }
+}
+
+/* Tablets & Large Phones (max-width: 768px) */
+@media (max-width: 768px) {
+    .section-pad {
+        padding: 65px 0;
+    }
+
+    .section-desc {
+        width: 92%;
+    }
+
+    .title-playfair {
+        font-size: 32px;
+    }
+
+    .our-offer-news .info .title-lg,
+    .menu .heading h2,
+    .Gallery .info-gal h2 {
+        font-size: 34px;
+    }
+
+    /* Hero & Navigation */
+    .hero-section #head-nav {
+        position: static;
+        display: block;
+        padding-top: 25px;
+        margin-bottom: 5px;
+    }
+
+    .hero-section nav ul {
+        float: none;
+        margin: 0 auto;
+        padding: 10px 15px;
+        text-align: center;
+    }
+
+    .hero-section nav ul li {
+        float: none;
+        display: inline-block;
+        margin: 6px 8px;
+    }
+
+    .container {
+        padding-block: 50px;
+        margin-block: 35px;
+    }
+
+    .container h1 {
+        font-size: 40px;
+    }
+
+    .container h2 {
+        font-size: 17px;
+    }
+
+    /* Our Story */
+    .our-story .info,
+    .our-story .image {
+        float: none;
+        width: 100%;
+    }
+
+    .our-story .info {
+        padding-top: 0;
+        margin-bottom: 35px;
+    }
+
+    /* Offers & News Cards */
+    .our-offer-news {
+        padding: 60px 20px;
+    }
+
+    .our-offer-news .info p {
+        width: 92%;
+    }
+
+    .cards .card {
+        float: none;
+        width: 100%;
+        max-width: 480px;
+        margin: 0 auto 25px auto;
+    }
+
+    /* Menu */
+    .menu {
+        margin-bottom: 40px;
+    }
+
+    .menu .heading p {
+        margin-inline: 8%;
+        font-size: 16px;
+    }
+
+    .menu .btns button,
+    #special-btn {
+        margin: 5px;
+        padding: 9px 18px;
+    }
+
+    /* Gallery */
+    .Gallery .info-gal {
+        margin-block: 35px;
+    }
+
+    .Gallery .info-gal p {
+        margin-inline: 8%;
+        font-size: 16px;
+    }
+
+    /* Contact / Get In Touch */
+    .get-in .contact-form,
+    .get-in .contact-info {
+        float: none;
+        width: 100%;
+    }
+
+    .get-in .contact-form {
+        margin-bottom: 40px;
+    }
+
+    /* Map */
+    .map-section {
+        padding: 75px 20px;
+    }
+}
+
+/* Mobile Phones (max-width: 576px) */
+@media (max-width: 576px) {
+    .main-container {
+        width: 92%;
+    }
+
+    .section-pad {
+        padding: 50px 0;
+    }
+
+    .title-playfair {
+        font-size: 28px;
+    }
+
+    .our-offer-news .info .title-lg,
+    .menu .heading h2,
+    .Gallery .info-gal h2 {
+        font-size: 28px;
+    }
+
+    /* Hero Section */
+    .container {
+        padding-block: 35px;
+        margin-block: 20px;
+        padding-inline: 15px;
+    }
+
+    .container h1 {
+        font-size: 30px;
+    }
+
+    .container h2 {
+        font-size: 15px;
+        margin-block: 20px;
+    }
+
+    .container button {
+        padding: 12px 28px;
+        font-size: 14px;
+    }
+
+    /* Offers & News */
+    .our-offer-news {
+        padding: 45px 15px;
+    }
+
+    .our-offer-news .info h2 {
+        font-size: 13px;
+        letter-spacing: 5px;
+    }
+
+    /* Menu */
+    .menu .heading p {
+        margin-inline: 5%;
+    }
+
+    .menu .menu-items .item {
+        text-align: center;
+        margin: 0 0 25px 0;
+    }
+
+    .menu .menu-items .item img {
+        float: none;
+        margin: 0 auto 15px auto;
+    }
+
+    .menu .menu-items .item h3,
+    .menu .menu-items .item p,
+    .menu .menu-items .item span {
+        margin-left: 0;
+    }
+
+    /* Gallery */
+    .Gallery .images img {
+        width: 94%;
+        display: block;
+        margin: 8px auto;
+    }
+
+    /* Map */
+    .map-section {
+        padding: 55px 15px;
+    }
+
+    .map-section .btn-show-map {
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+
+    /* Footer */
+    .footer {
+        padding: 60px 0 30px 0;
+    }
+
+    .footer .footer-col-about,
+    .footer .footer-col-links {
+        float: none;
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .footer .footer-social {
+        margin: 30px 0 25px 0;
+    }
+
+    .footer .footer-social .social-icon {
+        width: 42px;
+        height: 42px;
+        margin: 0 5px;
+    }
+
+    .footer .footer-social .social-icon img {
+        width: 42px;
+        height: 42px;
+    }
+}
+
+/* =========================================
+   10. Responsive Media Queries
+   ========================================= */
+
+/* Large Screens & Small Laptops (max-width: 1200px) */
+@media (max-width: 1200px) {
+    .main-container {
+        width: 88%;
+    }
+
+    .hero-section #head-nav {
+        left: 60px;
+    }
+
+    .our-offer-news {
+        padding: 80px 50px;
+    }
+
+    .menu .menu-items {
+        padding-inline: 5%;
+    }
+
+    .Gallery .images img {
+        width: 31%;
+        height: auto;
+    }
+}
+
+/* Tablets & Medium Screens (max-width: 992px) */
+@media (max-width: 992px) {
+    .main-container {
+        width: 90%;
+    }
+
+    .section-desc {
+        width: 80%;
+    }
+
+    .title-playfair {
+        font-size: 38px;
+    }
+
+    .our-offer-news .info .title-lg,
+    .menu .heading h2,
+    .Gallery .info-gal h2 {
+        font-size: 42px;
+        line-height: 1.2;
+    }
+
+    /* Hero Section */
+    .hero-section {
+        height: auto;
+        min-height: 100vh;
+    }
+
+    .hero-section #head-nav {
+        left: 30px;
+        top: 32px;
+    }
+
+    .hero-section nav ul {
+        margin: 15px 10px;
+        padding: 10px;
+    }
+
+    .hero-section nav ul li {
+        margin-inline: 10px;
+    }
+
+    .container {
+        padding-block: 80px;
+        margin-block: 60px;
+        padding-inline: 20px;
+    }
+
+    .container h1 {
+        font-size: 54px;
+    }
+
+    /* Offers & News */
+    .our-offer-news {
+        padding: 70px 30px;
+    }
+
+    .our-offer-news .info p {
+        width: 80%;
+        margin: 0 auto 30px auto;
+    }
+
+    .cards .card {
+        width: 47%;
+        margin: 0 1.5% 25px 1.5%;
+        padding-bottom: 35px;
+    }
+
+    .cards #sp-card,
+    .cards #sp-card01 {
+        padding-bottom: 35px;
+    }
+
+    /* Menu */
+    .menu .heading p {
+        margin-inline: 15%;
+    }
+
+    .menu .menu-items .menu-col {
+        float: none;
+        width: 100%;
+    }
+
+    /* Gallery */
+    .Gallery .info-gal p {
+        margin-inline: 15%;
+        font-size: 18px;
+    }
+
+    .Gallery .images img {
+        width: 47%;
+        height: auto;
+    }
+
+    /* Footer */
+    .footer .footer-col-about {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 35px;
+    }
+
+    .footer .footer-col-links {
+        width: 30%;
+        margin-right: 5%;
+    }
+
+    .footer .footer-col-links:last-of-type {
+        margin-right: 0;
+    }
+}
+
+/* Tablets & Large Phones (max-width: 768px) */
+@media (max-width: 768px) {
+    .section-pad {
+        padding: 65px 0;
+    }
+
+    .section-desc {
+        width: 92%;
+    }
+
+    .title-playfair {
+        font-size: 32px;
+    }
+
+    .our-offer-news .info .title-lg,
+    .menu .heading h2,
+    .Gallery .info-gal h2 {
+        font-size: 34px;
+    }
+
+    /* Hero & Navigation */
+    .hero-section #head-nav {
+        position: static;
+        display: block;
+        padding-top: 25px;
+        margin-bottom: 5px;
+    }
+
+    .hero-section nav ul {
+        float: none;
+        margin: 0 auto;
+        padding: 10px 15px;
+        text-align: center;
+    }
+
+    .hero-section nav ul li {
+        float: none;
+        display: inline-block;
+        margin: 6px 8px;
+    }
+
+    .container {
+        padding-block: 50px;
+        margin-block: 35px;
+    }
+
+    .container h1 {
+        font-size: 40px;
+    }
+
+    .container h2 {
+        font-size: 17px;
+    }
+
+    /* Our Story */
+    .our-story .info,
+    .our-story .image {
+        float: none;
+        width: 100%;
+    }
+
+    .our-story .info {
+        padding-top: 0;
+        margin-bottom: 35px;
+    }
+
+    /* Offers & News Cards */
+    .our-offer-news {
+        padding: 60px 20px;
+    }
+
+    .our-offer-news .info p {
+        width: 92%;
+    }
+
+    .cards .card {
+        float: none;
+        width: 100%;
+        max-width: 480px;
+        margin: 0 auto 25px auto;
+    }
+
+    /* Menu */
+    .menu {
+        margin-bottom: 40px;
+    }
+
+    .menu .heading p {
+        margin-inline: 8%;
+        font-size: 16px;
+    }
+
+    .menu .btns button,
+    #special-btn {
+        margin: 5px;
+        padding: 9px 18px;
+    }
+
+    /* Gallery */
+    .Gallery .info-gal {
+        margin-block: 35px;
+    }
+
+    .Gallery .info-gal p {
+        margin-inline: 8%;
+        font-size: 16px;
+    }
+
+    /* Contact / Get In Touch */
+    .get-in .contact-form,
+    .get-in .contact-info {
+        float: none;
+        width: 100%;
+    }
+
+    .get-in .contact-form {
+        margin-bottom: 40px;
+    }
+
+    /* Map */
+    .map-section {
+        padding: 75px 20px;
+    }
+}
+
+/* Mobile Phones (max-width: 576px) */
+@media (max-width: 576px) {
+    .main-container {
+        width: 92%;
+    }
+
+    .section-pad {
+        padding: 50px 0;
+    }
+
+    .title-playfair {
+        font-size: 28px;
+    }
+
+    .our-offer-news .info .title-lg,
+    .menu .heading h2,
+    .Gallery .info-gal h2 {
+        font-size: 28px;
+    }
+
+    /* Hero Section */
+    .container {
+        padding-block: 35px;
+        margin-block: 20px;
+        padding-inline: 15px;
+    }
+
+    .container h1 {
+        font-size: 30px;
+    }
+
+    .container h2 {
+        font-size: 15px;
+        margin-block: 20px;
+    }
+
+    .container button {
+        padding: 12px 28px;
+        font-size: 14px;
+    }
+
+    /* Offers & News */
+    .our-offer-news {
+        padding: 45px 15px;
+    }
+
+    .our-offer-news .info h2 {
+        font-size: 13px;
+        letter-spacing: 5px;
+    }
+
+    /* Menu */
+    .menu .heading p {
+        margin-inline: 5%;
+    }
+
+    .menu .menu-items .item {
+        text-align: center;
+        margin: 0 0 25px 0;
+    }
+
+    .menu .menu-items .item img {
+        float: none;
+        margin: 0 auto 15px auto;
+    }
+
+    .menu .menu-items .item h3,
+    .menu .menu-items .item p,
+    .menu .menu-items .item span {
+        margin-left: 0;
+    }
+
+    /* Gallery */
+    .Gallery .images img {
+        width: 94%;
+        display: block;
+        margin: 8px auto;
+    }
+
+    /* Map */
+    .map-section {
+        padding: 55px 15px;
+    }
+
+    .map-section .btn-show-map {
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+
+    /* Footer */
+    .footer {
+        padding: 60px 0 30px 0;
+    }
+
+    .footer .footer-col-about,
+    .footer .footer-col-links {
+        float: none;
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .footer .footer-social {
+        margin: 30px 0 25px 0;
+    }
+
+    .footer .footer-social .social-icon {
+        width: 42px;
+        height: 42px;
+        margin: 0 5px;
+    }
+
+    .footer .footer-social .social-icon img {
+        width: 42px;
+        height: 42px;
+    }
+}
